@@ -1,0 +1,9 @@
+17:11:26,331  INFO log.process.persist.ClientSessionPool:48 - Create session pool[100] success
+17:11:32,091  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-14T09:11:19+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [14/04/2015:09:11:19 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.26447089295834303" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:54049 vcap_request_id:b59eafc7ece24de336482c2ec2144fa4 response_time:0.004311294 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:11:32,093  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-14T09:11:19+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-2526] (ExampleService.java:29) 09:11:19,134 -- 泰康人寿保险股份有限公司 is visited
+
+17:13:27,015  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-14T09:13:14+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [14/04/2015:09:13:14 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.26447089295834303" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:54049 vcap_request_id:12b975a6c1f1efb997b9c24c2a046323 response_time:0.004290167 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:27,016  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-14T09:13:14+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-2345] (ExampleService.java:29) 09:13:14,073 -- 泰康人寿保险股份有限公司 is visited
+

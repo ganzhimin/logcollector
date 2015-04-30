@@ -1,0 +1,26 @@
+16:00:08,074  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:04+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [http-bio-61014-exec-7] (ExampleService.java:29) 08:00:04,642 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+16:00:08,162  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:04+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:0e27c193de39ce32c75bb0bdce80f461 response_time:0.013890773 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:00:08,170  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:04+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:04 +0000] "GET /nongzi.html HTTP/1.1" 200 3082 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:535803c5f478c3b9dc87396021aeb31f response_time:0.008246684 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:00:16,995  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:13+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:13 +0000] "GET /huarun.html HTTP/1.1" 200 3061 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37510 vcap_request_id:0cc61e8c1e286af0dec39d2cb8953e00 response_time:0.066995878 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:00:17,028  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:13+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:fc710ef1149d376b864b5cb07e4d9972 response_time:0.069765345 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:00:17,070  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:13+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - ERROR [http-bio-61014-exec-9] (ExampleService.java:26) 08:00:13,505 -- 华润出错了！
+
+16:00:17,087  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:13+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [http-bio-61014-exec-9] (ExampleService.java:29) 08:00:13,563 -- 杭州华润工贸公司 is visited
+
+16:00:22,549  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:19+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [http-bio-61014-exec-11] (ExampleService.java:29) 08:00:19,117 -- 中国进出口银行杭州分行 is visited
+
+16:00:22,561  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:19+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:19 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:1616aeda647bd14ece00c1d741317e82 response_time:0.016568044 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:00:22,569  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:00:19+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:08:00:19 +0000] "GET /bank.html HTTP/1.1" 200 3067 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37510 vcap_request_id:83514e86b37ee30a7e270e78c8f87992 response_time:0.015964012 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:21:43,499  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:21:40+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Removing crash for app with id e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:21:43,507  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:21:40+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopping app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+16:21:43,515  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T08:21:40+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopped app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+

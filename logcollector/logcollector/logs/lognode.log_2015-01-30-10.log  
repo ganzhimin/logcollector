@@ -1,0 +1,20 @@
+10:09:05,568  INFO logstorer.ClientSessionPool:48 - Create session pool[100] success
+10:09:13,975  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:09:14,031  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:14:16,510  INFO logstorer.ClientSessionPool:48 - Create session pool[100] success
+10:14:20,001  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:14:20,005  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:19:25,500  INFO logstorer.ClientSessionPool:48 - Create session pool[100] success
+10:19:28,698  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:19:28,702  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:20:47,750  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:20:47,750  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:22:55,886  INFO logstorer.ClientSessionPool:48 - Create session pool[100] success
+10:23:29,048  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:24:26,818  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:24:52,761  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+10:24:53,418  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:26:26,984  WARN org.hornetq.core.client:338 - HQ212037: Connection failure has been detected: HQ119015: The connection was disconnected because of server shutdown [code=DISCONNECTED]
+10:56:22,311  INFO logstorer.ClientSessionPool:48 - Create session pool[100] success
+10:56:38,925  INFO logstorer.NettyServerHandler:33 - 源：dd
+10:56:38,929  INFO logstorer.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==

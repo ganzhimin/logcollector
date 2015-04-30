@@ -1,0 +1,211 @@
+17:06:01,207  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:07:35,790  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:08:20,219  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:08:53,817  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:08:25+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:08:25 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:9663e2f2459814c068912687f8cb86eb response_time:0.004184058 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:10:21,537  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:10:32,897  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:10:16+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:10:16 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:ea7764e8074725c35b7f09d1675d1e08 response_time:0.004003184 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:11:15,268  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:11:21,528  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:08+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:11:08 +0000] "GET /ext-all.js HTTP/1.1" 304 0 "http://jsdomain3.dawei.li/bank.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34301 vcap_request_id:988c2e1c30f30254e8c3a57e43ce8e0c response_time:0.002743857 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:11:54,221  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:12:00,436  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:48+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1521] (ExampleService.java:29) 09:11:48,973 -- 泰康人寿保险股份有限公司 is visited
+
+17:13:33,586  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:48+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:11:48 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:d48a31dc2a93043d2fa1adb5226438b7 response_time:0.004594534 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,589  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+17:13:33,592  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1480] (ExampleService.java:29) 09:11:51,629 -- 泰康人寿保险股份有限公司 is visited
+
+17:13:33,593  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:11:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:76e8062a2ae1b407678a3c3b4751bc9e response_time:0.004147694 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,594  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:54+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1530] (ExampleService.java:29) 09:11:54,125 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:13:33,594  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:54+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:11:54 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:820d22918ccfdfdfbe10bf3ff992bc04 response_time:0.004238204 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,599  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:56+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:11:56 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.4513044850900769" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:352439a7f911a8809ba19f3db9cca855 response_time:0.004389729 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,599  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:11:56+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1328] (ExampleService.java:29) 09:11:56,197 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:13:33,599  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:12:32+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:12:32 +0000] "GET /?q=0.9622502888087183 HTTP/1.1" 200 2101 "http://10.10.105.107:8080/cfWeb/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:fe1ddbebc337faa0593be1dc4d922ef6 response_time:0.004132367 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,599  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:12:53+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1435] (ExampleService.java:29) 09:12:53,834 -- 泰康人寿保险股份有限公司 is visited
+
+17:13:33,600  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:12:53+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:12:53 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.9622502888087183" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:cc77ff1ce0e17f941dac7c1d85fcd3d5 response_time:0.004918644 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:33,600  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:13:16+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - - ERROR [http-bio-61079-exec-1430] (ExampleService.java:26) 09:13:16,548 -- 华润出错了！
+
+17:13:33,600  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:13:16+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1430] (ExampleService.java:29) 09:13:16,549 -- 杭州华润工贸公司 is visited
+
+17:13:33,601  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:13:16+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:13:16 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.9622502888087183" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:34302 vcap_request_id:956ee058bf0ca0b2821150e80925f606 response_time:0.005035933 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:13:48,684  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:14:18,713  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:07+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1529] (ExampleService.java:29) 09:14:07,251 -- 泰康人寿保险股份有限公司 is visited
+
+17:16:19,331  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:07+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:07 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:0f0b32684a6577c82446a6c12306afa1 response_time:0.004345195 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,334  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+17:16:19,337  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:09+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1441] (ExampleService.java:29) 09:14:09,334 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,339  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:09+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:09 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:bf5c27c8909851b09a95b7d36a587141 response_time:0.004588241 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,339  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:19+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1561] (ExampleService.java:29) 09:14:19,947 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,339  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:19+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:19 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35663 vcap_request_id:50a4b513a29d5c641b43c4140bf50f9c response_time:0.004212022 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,344  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1400] (ExampleService.java:29) 09:14:20,046 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,344  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:20 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35665 vcap_request_id:2a35c6c35983c5b0316709fc1eaac029 response_time:0.004538901 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,345  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1539] (ExampleService.java:29) 09:14:20,148 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,345  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:20 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35666 vcap_request_id:39815e83454aa9117da1006f80d39cd3 response_time:0.003116470 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,345  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1459] (ExampleService.java:29) 09:14:20,248 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,345  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:20 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35667 vcap_request_id:bef13be20df73cc1ef109d7295ad1faa response_time:0.003246763 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,346  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1293] (ExampleService.java:29) 09:14:20,347 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,346  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:20 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35668 vcap_request_id:37bbe8e21c70bbd4a7946946177d35b4 response_time:0.003590948 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,348  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-992] (ExampleService.java:29) 09:14:20,446 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:19,348  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:14:20 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:35669 vcap_request_id:3b20bd1e3fdfd5136faecb21ecbb80a7 response_time:0.002754483 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:19,348  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:14:20+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1448] (ExampleService.java:29) 09:14:20,546 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:16:26,824  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:16:34,494  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:16:23+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:16:22 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:7b1caffa898ef1279fd7252dcc08d174 response_time:0.004267648 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:40,652  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:16:29+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - - ERROR [http-bio-61079-exec-1575] (ExampleService.java:26) 09:16:29,200 -- 华润出错了！
+
+17:16:40,656  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:16:29+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:16:29 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:43d12c137e9e57a9beca636abccb2e33 response_time:0.004546849 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:16:40,656  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:16:29+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1575] (ExampleService.java:29) 09:16:29,200 -- 杭州华润工贸公司 is visited
+
+17:17:12,006  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+17:17:21,530  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:10+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1441] (ExampleService.java:29) 09:17:10,047 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:17:21,532  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:10+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:10 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:7eea1e102acedf12de56180f1294bc21 response_time:0.003991337 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:17:23,714  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - - ERROR [http-bio-61079-exec-1561] (ExampleService.java:26) 09:17:12,262 -- 华润出错了！
+
+17:17:23,715  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1561] (ExampleService.java:29) 09:17:12,263 -- 杭州华润工贸公司 is visited
+
+17:17:23,716  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:12 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:35617 vcap_request_id:20e976cb7a0a3086fbb42efdfd8f908a response_time:0.005531466 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:18:08,217  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36109 vcap_request_id:ac9e5b2f9ce0717541c4588875bc5ac7 response_time:0.002569425 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:18:10,409  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1400] (ExampleService.java:29) 09:17:51,332 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:18:11,609  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1539] (ExampleService.java:29) 09:17:51,333 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:18:12,377  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36110 vcap_request_id:065693a0655d0fbc121a479a044cabbf response_time:0.003252932 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:18:12,961  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1293] (ExampleService.java:29) 09:17:51,334 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:18:13,513  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36112 vcap_request_id:94b4b5fa73676b09937787bdd293df66 response_time:0.004067335 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:18:13,978  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36111 vcap_request_id:54a0a48bb7f307f3e6d05bfb3962b868 response_time:0.004391200 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:18:14,337  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36116 vcap_request_id:a9fea7fb47384556e144e49dee7cac67 response_time:0.004975827 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:19:29,761  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36113 vcap_request_id:7cc5144e4fd2d87707d485990780a6c3 response_time:0.005337960 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:19:29,762  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36117 vcap_request_id:465dd794c629b3ae694883c8465c04eb response_time:0.005676669 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:19:29,770  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1459] (ExampleService.java:29) 09:17:51,334 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,770  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1459] (ExampleService.java:29) 09:17:51,335 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,771  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1448] (ExampleService.java:29) 09:17:51,335 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,771  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1459] (ExampleService.java:29) 09:17:51,336 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,771  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36114 vcap_request_id:94e5a17423184842776d907715593f3d response_time:0.005935503 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:19:29,772  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1448] (ExampleService.java:29) 09:17:51,336 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,772  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36108 vcap_request_id:661fc4ad7652a0ebcffd01a4b20833fc response_time:0.005473731 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:19:29,772  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1560] (ExampleService.java:29) 09:17:51,336 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,772  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-1459] (ExampleService.java:29) 09:17:51,336 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+17:19:29,772  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:17:51+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:09:17:51 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:36115 vcap_request_id:373a10ed7b4f04df342d9ba61503b868 response_time:0.006469400 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+17:22:38,833  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:27+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '2000' did not find a matching property.
+
+17:22:38,834  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:27+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '5' did not find a matching property.
+
+17:22:38,835  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:27+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'useURIValidationHack' to 'false' did not find a matching property.
+
+17:22:39,634  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Initializing ProtocolHandler ["http-bio-61080"]
+
+17:22:39,649  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Initialization processed in 1124 ms
+
+17:22:39,664  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardService           INFO    Starting service Catalina
+
+17:22:39,664  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardEngine            INFO    Starting Servlet Engine: Apache Tomcat/7.0.56
+
+17:22:39,693  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deploying web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT
+
+17:22:39,971  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:28+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.loader.WebappClassLoader       INFO    validateJarFile(/home/vcap/app/.java-buildpack/tomcat/webapps/ROOT/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+
+17:22:42,670  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:31+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] ing.AutoReconfigurationServletContainerInitializer INFO    Initializing ServletContext with Auto-reconfiguration ApplicationContextInitializers
+
+17:22:42,671  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:31+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    No Spring WebApplicationInitializer types detected on classpath
+
+17:22:43,320  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:31+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    Initializing Spring root WebApplicationContext
+
+17:22:43,335  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:31+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:273) 09:22:31,872 -- Root WebApplicationContext: initialization started
+
+17:22:43,825  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] n.spring.CloudProfileApplicationContextInitializer INFO    Adding 'cloud' to list of active profiles
+
+17:22:43,830  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] g.CloudPropertySourceApplicationContextInitializer INFO    Adding 'cloud' PropertySource to ApplicationContext
+
+17:22:43,888  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] n.org.springframework.cloud.AbstractCloudConnector WARNING No suitable service info creator found for service logservice Did you forget to add a ServiceInfoCreator?
+
+17:22:43,911  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] udAutoReconfigurationApplicationContextInitializer INFO    Adding cloud service auto-reconfiguration to ApplicationContext
+
+17:22:43,938  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (AbstractApplicationContext.java:510) 09:22:32,480 -- Refreshing Root WebApplicationContext: startup date [Mon Apr 13 09:22:32 UTC 2015]; root of context hierarchy
+
+17:22:43,981  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (XmlBeanDefinitionReader.java:315) 09:22:32,524 -- Loading XML bean definitions from class path resource [applicationContext.xml]
+
+17:22:44,088  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (ClassPathScanningCandidateComponentProvider.java:222) 09:22:32,629 -- JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+
+17:22:44,225  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    Auto-reconfiguring beans of type javax.sql.DataSource
+
+17:22:44,227  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+
+17:22:44,252  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:32+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (DefaultListableBeanFactory.java:596) 09:22:32,794 -- Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25be3a91: defining beans [exampleService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+
+17:22:44,485  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:33+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:313) 09:22:33,026 -- Root WebApplicationContext: initialization completed in 1147 ms
+
+17:22:44,545  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:33+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deployment of web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT has finished in 4,851 ms
+
+17:22:44,546  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:33+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Starting ProtocolHandler ["http-bio-61080"]
+
+17:22:44,561  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:33+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Server startup in 4911 ms
+
+17:22:51,281  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:39+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:39 +0000] "GET /?q=0.11943816510029137 HTTP/1.1" 200 2101 "http://10.10.105.107:8080/cfWeb/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36778 vcap_request_id:0f91186227cbe40f686704da89b42551 response_time:0.120236881 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:22:51,340  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:39+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:39 +0000] "GET /css/style.css HTTP/1.1" 200 2039 "http://jsdomain4.dawei.li/?q=0.11943816510029137" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36778 vcap_request_id:ea3abbe51d14d0a2e434865d4b165001 response_time:0.007878760 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:22:51,444  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:39+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:39 +0000] "GET /ext-all.js HTTP/1.1" 200 1497654 "http://jsdomain4.dawei.li/?q=0.11943816510029137" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36779 vcap_request_id:8e2f1e9baad1526da43d2ef9caf33d20 response_time:0.107208812 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:22:51,501  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:40+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:40 +0000] "GET /images/se-su-a.png HTTP/1.1" 200 3900 "http://jsdomain4.dawei.li/?q=0.11943816510029137" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36779 vcap_request_id:a2164141e7f4707d2d261faf5dc717f6 response_time:0.005700882 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:22:51,676  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:40+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:40 +0000] "GET /images/ban-bj.png HTTP/1.1" 200 1030 "http://jsdomain4.dawei.li/?q=0.11943816510029137" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36778 vcap_request_id:b842f0d6ede2c4ef5f147869716003eb response_time:0.012404327 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:22:51,676  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:40+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:40 +0000] "GET /images/logo-top.jpg HTTP/1.1" 200 26766 "http://jsdomain4.dawei.li/?q=0.11943816510029137" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36779 vcap_request_id:2679b68b193b5b9a6691419eb28660d2 response_time:0.013332019 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:26:38,265  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2014-10-28T09:44:39+00:00 loggregator ab939119-f99c-41dc-b901-22da186564df [RTR] - - dotnetap.tianjin.paas - [28/10/2014:09:44:31 +0000] "GET / HTTP/1.1" 200 503 "http://172.31.42.54:28080/cfWeb/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36" 172.31.42.28:56449 vcap_request_id:b8f77cd3aa169fa7f4da85fa40ec2042 response_time:0.006618517 app_id:ab939119-f99c-41dc-b901-22da186564df
+17:26:53,372  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+17:27:00,133  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2014-10-28T09:44:39+00:00 loggregator ab939119-f99c-41dc-b901-22da186564df [RTR] - - dotnetap.tianjin.paas - [28/10/2014:09:44:31 +0000] "GET / HTTP/1.1" 200 503 "http://172.31.42.54:28080/cfWeb/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36" 172.31.42.28:56449 vcap_request_id:b8f77cd3aa169fa7f4da85fa40ec2042 response_time:0.006618517 app_id:ab939119-f99c-41dc-b901-22da186564df
+17:27:16,882  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2014-10-28T09:44:39+00:00 loggregator ab939119-f99c-41dc-b901-22da186564df [RTR] - - dotnetap.tianjin.paas - [28/10/2014:09:44:31 +0000] "GET / HTTP/1.1" 200 503 "http://172.31.42.54:28080/cfWeb/" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36" 172.31.42.28:56449 vcap_request_id:b8f77cd3aa169fa7f4da85fa40ec2042 response_time:0.006618517 app_id:ab939119-f99c-41dc-b901-22da186564df
+17:27:18,770  INFO log.server.handler.NettyServerHandler:40 - 源：<14>1 2015-04-13T09:22:43+00:00 loggregator 6ed8d461-b01e-4938-835f-9040daf6a2a3 [RTR] - - jsdomain4.dawei.li - [13/04/2015:09:22:43 +0000] "GET /favicon.ico HTTP/1.1" 404 973 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:36778 vcap_request_id:a858cb2cb6f3d9ee2020fdc2297331f5 response_time:0.016577729 app_id:6ed8d461-b01e-4938-835f-9040daf6a2a3
+
+17:27:30,959  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+17:27:34,941  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==

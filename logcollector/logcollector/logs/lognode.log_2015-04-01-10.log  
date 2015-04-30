@@ -1,0 +1,23 @@
+10:00:56,384  INFO log.process.persist.ClientSessionPool:48 - Create session pool[100] success
+10:01:26,334 ERROR org.hornetq.core.client:679 - HQ214016: Failed to create netty connection
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.jboss.netty.channel.socket.oio.OioClientSocketPipelineSink.connect(OioClientSocketPipelineSink.java:109)
+	at org.jboss.netty.channel.socket.oio.OioClientSocketPipelineSink.eventSunk(OioClientSocketPipelineSink.java:69)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:634)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:207)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:229)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:182)
+	at org.hornetq.core.remoting.impl.netty.NettyConnector.createConnection(NettyConnector.java:628)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:1223)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:1069)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:246)
+	at org.hornetq.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:828)
+	at log.server.LogNodeServer.createSessionFactory(LogNodeServer.java:79)
+	at log.server.LogNodeServer.main(LogNodeServer.java:44)
+10:02:22,875  INFO log.process.persist.ClientSessionPool:48 - Create session pool[100] success

@@ -1,0 +1,145 @@
+15:45:06,392  INFO log.process.persist.ClientSessionPool:48 - Create session pool[100] success
+15:45:48,211  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:16+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [API] - - Updated app with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4 ({"state"=>"STARTED"})
+
+15:46:24,979  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:16+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Starting app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:46:25,013  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:17+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopping app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:46:25,021  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:17+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopped app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:46:25,030  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:22+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+
+15:46:25,038  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:22+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '2000' did not find a matching property.
+
+15:46:25,047  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:22+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '5' did not find a matching property.
+
+15:46:25,055  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:22+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'useURIValidationHack' to 'false' did not find a matching property.
+
+15:46:25,064  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Initializing ProtocolHandler ["http-bio-61013"]
+
+15:46:25,072  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Initialization processed in 908 ms
+
+15:46:25,080  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardService           INFO    Starting service Catalina
+
+15:46:25,088  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardEngine            INFO    Starting Servlet Engine: Apache Tomcat/7.0.56
+
+15:46:25,096  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deploying web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT
+
+15:46:25,104  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:23+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.loader.WebappClassLoader       INFO    validateJarFile(/home/vcap/app/.java-buildpack/tomcat/webapps/ROOT/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+
+15:46:25,113  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:26+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.AutoReconfigurationServletContainerInitializer INFO    Initializing ServletContext with Auto-reconfiguration ApplicationContextInitializers
+
+15:46:25,121  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:26+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    No Spring WebApplicationInitializer types detected on classpath
+
+15:46:25,130  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:26+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    Initializing Spring root WebApplicationContext
+
+15:46:25,138  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:26+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:273) 07:45:26,770 -- Root WebApplicationContext: initialization started
+
+15:46:25,146  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] n.spring.CloudProfileApplicationContextInitializer INFO    Adding 'cloud' to list of active profiles
+
+15:46:25,154  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] g.CloudPropertySourceApplicationContextInitializer INFO    Adding 'cloud' PropertySource to ApplicationContext
+
+15:46:25,163  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] n.org.springframework.cloud.AbstractCloudConnector WARNING No suitable service info creator found for service logservice Did you forget to add a ServiceInfoCreator?
+
+15:46:25,171  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] udAutoReconfigurationApplicationContextInitializer INFO    Adding cloud service auto-reconfiguration to ApplicationContext
+
+15:46:25,180  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (AbstractApplicationContext.java:510) 07:45:27,232 -- Refreshing Root WebApplicationContext: startup date [Fri Apr 10 07:45:27 UTC 2015]; root of context hierarchy
+
+15:46:25,188  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (XmlBeanDefinitionReader.java:315) 07:45:27,308 -- Loading XML bean definitions from class path resource [applicationContext.xml]
+
+15:46:25,197  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ClassPathScanningCandidateComponentProvider.java:222) 07:45:27,430 -- JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+
+15:46:25,205  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    Auto-reconfiguring beans of type javax.sql.DataSource
+
+15:46:25,213  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+
+15:46:25,222  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (DefaultListableBeanFactory.java:596) 07:45:27,572 -- Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@22565ee8: defining beans [exampleService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+
+15:46:25,230  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:313) 07:45:27,765 -- Root WebApplicationContext: initialization completed in 992 ms
+
+15:46:25,239  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deployment of web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT has finished in 4,300 ms
+
+15:46:25,247  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Starting ProtocolHandler ["http-bio-61013"]
+
+15:46:25,255  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:45:27+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Server startup in 4383 ms
+
+15:55:15,562  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:53+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [API] - - Updated app with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4 ({"state"=>"STOPPED"})
+
+15:55:21,030  INFO log.server.handler.NettyServerHandler:35 - 源：<11>1 2015-04-10T07:54:52+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - 
+
+15:55:21,038  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:53+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [API] - - Updated app with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4 ({"state"=>"STARTED"})
+
+15:55:21,046  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:53+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Starting app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:55:21,055  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopping app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:55:21,063  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [DEA] - - Stopped app instance (index 0) with guid e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:55:21,071  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+
+15:55:21,080  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '2000' did not find a matching property.
+
+15:55:21,088  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '5' did not find a matching property.
+
+15:55:21,097  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.tomcat.util.digester.Digester           WARNING [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'useURIValidationHack' to 'false' did not find a matching property.
+
+15:55:21,105  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Initializing ProtocolHandler ["http-bio-61014"]
+
+15:55:21,113  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Initialization processed in 1141 ms
+
+15:55:21,121  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardService           INFO    Starting service Catalina
+
+15:55:21,130  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.core.StandardEngine            INFO    Starting Servlet Engine: Apache Tomcat/7.0.56
+
+15:55:21,138  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:54:59+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deploying web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT
+
+15:55:21,146  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:00+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.loader.WebappClassLoader       INFO    validateJarFile(/home/vcap/app/.java-buildpack/tomcat/webapps/ROOT/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+
+15:55:21,155  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:01+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.AutoReconfigurationServletContainerInitializer INFO    Initializing ServletContext with Auto-reconfiguration ApplicationContextInitializers
+
+15:55:21,163  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:01+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    No Spring WebApplicationInitializer types detected on classpath
+
+15:55:21,172  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] lina.core.ContainerBase.[Catalina].[localhost].[/] INFO    Initializing Spring root WebApplicationContext
+
+15:55:21,180  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:273) 07:55:02,213 -- Root WebApplicationContext: initialization started
+
+15:55:21,188  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] n.spring.CloudProfileApplicationContextInitializer INFO    Adding 'cloud' to list of active profiles
+
+15:55:21,197  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] g.CloudPropertySourceApplicationContextInitializer INFO    Adding 'cloud' PropertySource to ApplicationContext
+
+15:55:21,205  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] n.org.springframework.cloud.AbstractCloudConnector WARNING No suitable service info creator found for service logservice Did you forget to add a ServiceInfoCreator?
+
+15:55:21,213  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] udAutoReconfigurationApplicationContextInitializer INFO    Adding cloud service auto-reconfiguration to ApplicationContext
+
+15:55:21,221  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (AbstractApplicationContext.java:510) 07:55:02,684 -- Refreshing Root WebApplicationContext: startup date [Fri Apr 10 07:55:02 UTC 2015]; root of context hierarchy
+
+15:55:21,230  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (XmlBeanDefinitionReader.java:315) 07:55:02,732 -- Loading XML bean definitions from class path resource [applicationContext.xml]
+
+15:55:21,238  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ClassPathScanningCandidateComponentProvider.java:222) 07:55:02,849 -- JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+
+15:55:21,246  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    Auto-reconfiguring beans of type javax.sql.DataSource
+
+15:55:21,257  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:02+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] ing.DataSourceCloudServiceBeanFactoryPostProcessor INFO    No beans of type javax.sql.DataSource found. Skipping auto-reconfiguration.
+
+15:55:21,264  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:03+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (DefaultListableBeanFactory.java:596) 07:55:03,001 -- Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3a5c470d: defining beans [exampleService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+
+15:55:21,272  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:03+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [localhost-startStop-1] (ContextLoader.java:313) 07:55:03,195 -- Root WebApplicationContext: initialization completed in 973 ms
+
+15:55:21,280  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:03+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.HostConfig             INFO    Deployment of web application directory /home/vcap/app/.java-buildpack/tomcat/webapps/ROOT has finished in 3,325 ms
+
+15:55:21,289  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:03+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.coyote.http11.Http11Protocol            INFO    Starting ProtocolHandler ["http-bio-61014"]
+
+15:55:21,297  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:55:03+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - - [CONTAINER] org.apache.catalina.startup.Catalina               INFO    Server startup in 3367 ms
+
+15:58:19,252  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:15+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:07:58:15 +0000] "GET /?q=0.3827581871300936 HTTP/1.1" 200 2101 "http://localhost:8080/cfWeb/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:4430b3b7d0731826fe3e5064e7ccff3d response_time:0.201455800 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:58:19,307  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:15+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:07:58:15 +0000] "GET /ext-all.js HTTP/1.1" 304 0 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:588b3c177f31a80ffbfdce30089050a8 response_time:0.012186189 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:58:57,784  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:07:58:54 +0000] "GET /taikang.html HTTP/1.1" 200 3056 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37510 vcap_request_id:a70744983ee72ffb9a0af120b4a779f0 response_time:0.016271034 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:58:57,844  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:07:58:54 +0000] "GET /css/public3.css HTTP/1.1" 200 2409 "http://jsdomain2.dawei.li/taikang.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37510 vcap_request_id:8cd18e61aeee001f704e6f7efc857704 response_time:0.011058386 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+
+15:58:57,900  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [App/0] - -  INFO [http-bio-61014-exec-4] (ExampleService.java:29) 07:58:54,401 -- 泰康人寿保险股份有限公司 is visited
+
+15:58:58,000  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-10T07:58:54+00:00 loggregator e413b7bd-8aed-4e44-81ce-ac1acd646df4 [RTR] - - jsdomain2.dawei.li - [10/04/2015:07:58:54 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain2.dawei.li/?q=0.3827581871300936" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:37381 vcap_request_id:796cd474c15a222ec6aea258abba7bb8 response_time:0.181218333 app_id:e413b7bd-8aed-4e44-81ce-ac1acd646df4
+

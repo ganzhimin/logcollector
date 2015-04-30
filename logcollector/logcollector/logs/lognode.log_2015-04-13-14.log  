@@ -1,0 +1,953 @@
+14:00:49,979  INFO log.process.persist.ClientSessionPool:48 - Create session pool[100] success
+14:02:03,276  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:01:52+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:01:52 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:49186 vcap_request_id:73f3bbc4345dcd8f008e526983661c13 response_time:0.004578431 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:02:15,538  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:02:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-131] (ExampleService.java:29) 06:02:04,485 -- 泰康人寿保险股份有限公司 is visited
+
+14:02:15,557  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:02:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:02:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:49186 vcap_request_id:f9eb7b07ae2c8cb11ab563b0e3f6e2de response_time:0.004065346 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,378  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49812 vcap_request_id:ec60da34fae7190c88081274031f9bc4 response_time:0.003805668 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,395  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-230] (ExampleService.java:29) 06:05:03,320 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,404  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-230] (ExampleService.java:29) 06:05:03,321 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,412  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49813 vcap_request_id:1821604e95a39e6887e4ae6592f17217 response_time:0.004632858 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,421  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-14] (ExampleService.java:29) 06:05:03,334 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,429  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-252] (ExampleService.java:29) 06:05:03,334 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,438  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49813 vcap_request_id:f36deaa725201a1b68581e707a454d5b response_time:0.003069076 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,446  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49812 vcap_request_id:d87709da4a0464d7567f184941dc9221 response_time:0.003838781 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,454  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-140] (ExampleService.java:29) 06:05:03,352 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,463  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49814 vcap_request_id:c7ace0085ff1731e167806b108e70d1e response_time:0.002650949 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,471  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-262] (ExampleService.java:29) 06:05:03,358 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,479  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49814 vcap_request_id:f54bf74be1f00a467e8ecaf14df1bf23 response_time:0.002633425 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,495  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-249] (ExampleService.java:29) 06:05:03,424 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,504  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49815 vcap_request_id:8923ae55b488fa578051e877e741a36d response_time:0.003063493 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,512  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-179] (ExampleService.java:29) 06:05:03,437 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,520  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49815 vcap_request_id:ddbff1fdd5f2331ee5557046b6ba216e response_time:0.003063081 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,543  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-133] (ExampleService.java:29) 06:05:03,486 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,571  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49816 vcap_request_id:24dd5899b809d9d5148a8478591501dc response_time:0.003221261 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,579  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-258] (ExampleService.java:29) 06:05:03,492 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,587  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49816 vcap_request_id:8218e5e316196e7121af91ea13f69c21 response_time:0.002666370 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,611  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-185] (ExampleService.java:29) 06:05:03,553 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,621  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49818 vcap_request_id:0a0b7614c93100ab9165ab51f1e0d9d8 response_time:0.004658333 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,629  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49818 vcap_request_id:7711b992ec854c38d21aa011d386daa8 response_time:0.002347134 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,637  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-20] (ExampleService.java:29) 06:05:03,561 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,677  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-254] (ExampleService.java:29) 06:05:03,620 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,688  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49819 vcap_request_id:20250cd7fc019b12b412dfc15d9d059c response_time:0.002874827 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,696  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-261] (ExampleService.java:29) 06:05:03,629 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,704  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49819 vcap_request_id:a6902f3ecbda70253e13e60f37ed7b7e response_time:0.002808416 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,742  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-77] (ExampleService.java:29) 06:05:03,686 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,745  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49820 vcap_request_id:502e688974c4079946437a5ef5355464 response_time:0.003327393 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,754  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-45] (ExampleService.java:29) 06:05:03,692 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,762  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49820 vcap_request_id:479686ace25e33e1be0d4ceda66726e8 response_time:0.002488937 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,809  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-147] (ExampleService.java:29) 06:05:03,753 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,812  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49823 vcap_request_id:79e58213a0b725ba255ea819746b15bf response_time:0.003176394 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,821  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-85] (ExampleService.java:29) 06:05:03,759 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,829  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49823 vcap_request_id:58f0511e2afde51b2ba6b6f771215d5d response_time:0.002651382 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,899  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49824 vcap_request_id:14be9f6b3e27e33e713084fcdbbcdc24 response_time:0.003900915 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,904  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-42] (ExampleService.java:29) 06:05:03,841 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,913  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49824 vcap_request_id:61eb4eaa6bdad33889fc2062eef029d3 response_time:0.002947097 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,921  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-284] (ExampleService.java:29) 06:05:03,852 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,947  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-184] (ExampleService.java:29) 06:05:03,890 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,954  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49825 vcap_request_id:c89c51d659aadbd4b175fada7d3c00a6 response_time:0.003219852 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:14,963  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-203] (ExampleService.java:29) 06:05:03,901 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:14,971  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49825 vcap_request_id:fd33365cee8b989537719f9bb9931f0d response_time:0.002732524 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,015  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-4] (ExampleService.java:29) 06:05:03,958 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,021  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49826 vcap_request_id:f35afe3147f8f1abd56a66020682d2af response_time:0.003412963 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,029  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-65] (ExampleService.java:29) 06:05:03,968 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,038  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:03+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:03 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49826 vcap_request_id:cc8c5a2a516a36d1dcd868289b7b3d41 response_time:0.003117267 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,082  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-131] (ExampleService.java:29) 06:05:04,025 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,088  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49827 vcap_request_id:8642c5abd4928f7ce88b97c5191a14c3 response_time:0.003170800 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,096  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-230] (ExampleService.java:29) 06:05:04,036 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,105  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49827 vcap_request_id:373ddbcee8ae92f9308b4ea1d70f6478 response_time:0.002979043 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,148  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-108] (ExampleService.java:29) 06:05:04,091 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,155  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49828 vcap_request_id:a3a3b6cf5556f10656b62aaa6da139d0 response_time:0.003061210 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,163  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-14] (ExampleService.java:29) 06:05:04,101 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,171  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49828 vcap_request_id:310aa59dfdbfedf714caf0392b5bc44a response_time:0.002715659 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,211  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-252] (ExampleService.java:29) 06:05:04,154 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,221  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49829 vcap_request_id:ff0177ff7bca4a79f82df534249d7bd7 response_time:0.004796007 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:15,229  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-140] (ExampleService.java:29) 06:05:04,162 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:15,237  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:04+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:04 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49829 vcap_request_id:a36a26bf8c84d0f7d755e507f52e61d0 response_time:0.002843251 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,005  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-262] (ExampleService.java:29) 06:05:12,948 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,020  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:12 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49860 vcap_request_id:3f58527e35d93c7c19c8c3c6538f7958 response_time:0.002494204 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,028  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-249] (ExampleService.java:29) 06:05:12,952 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,037  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:12 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49860 vcap_request_id:afd20a141b47eaa2dfa52b3e2032122c response_time:0.001157273 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,075  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-179] (ExampleService.java:29) 06:05:13,018 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,079  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49861 vcap_request_id:8c07f3c66693885033e564d5528cc353 response_time:0.004658931 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,087  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-133] (ExampleService.java:29) 06:05:13,026 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,095  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49861 vcap_request_id:07617490562fec50bc387e765cd49f53 response_time:0.003322778 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,146  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49862 vcap_request_id:47f04b1ed08a9fa4f2eccb706527cb75 response_time:0.003765893 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,154  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-258] (ExampleService.java:29) 06:05:13,088 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,162  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49862 vcap_request_id:f38f9dd618e5d75712d041ec73ba945e response_time:0.003046173 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,171  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-185] (ExampleService.java:29) 06:05:13,099 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,212  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-20] (ExampleService.java:29) 06:05:13,155 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,220  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49863 vcap_request_id:5f3b3cdc57911d1c2a349d27cae9238b response_time:0.003044965 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,229  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-254] (ExampleService.java:29) 06:05:13,166 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,237  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49863 vcap_request_id:8275121401b26a4d9cab96c781a3bf8a response_time:0.003318588 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,274  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-261] (ExampleService.java:29) 06:05:13,217 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,280  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49864 vcap_request_id:a716efb9df80a867f5859dca63ee59dc response_time:0.004023088 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,288  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-77] (ExampleService.java:29) 06:05:13,224 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,296  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49864 vcap_request_id:1787d9e54d8dd53ffdb844b464200da1 response_time:0.002885170 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,348  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-45] (ExampleService.java:29) 06:05:13,290 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,355  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49865 vcap_request_id:72fda03e9d99af4920fe8b564a0e5ced response_time:0.003867071 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,363  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-147] (ExampleService.java:29) 06:05:13,302 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,372  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49865 vcap_request_id:3cd4b97636ed909313411f292d0cdbfa response_time:0.003695932 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,414  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49866 vcap_request_id:97a5b87bc2c803c432f4dba909d23ef9 response_time:0.003814794 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,423  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-85] (ExampleService.java:29) 06:05:13,356 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,430  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-42] (ExampleService.java:29) 06:05:13,369 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,439  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49866 vcap_request_id:ce6444cf6c95147fbf9716e955e279dd response_time:0.003103712 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,479  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-284] (ExampleService.java:29) 06:05:13,422 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,489  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49867 vcap_request_id:9f1faeb5a777973ef1de8b1cb6a9641f response_time:0.003993162 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,496  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-184] (ExampleService.java:29) 06:05:13,433 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,504  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49867 vcap_request_id:3c25ab32bc31df08849b25a209dc67a8 response_time:0.003684427 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,542  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-203] (ExampleService.java:29) 06:05:13,485 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,600  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49868 vcap_request_id:1b5a32064d36839542b3ed9095f84369 response_time:0.002981365 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,632  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49868 vcap_request_id:6fdcec5c77f48756399619ce199ee145 response_time:0.003206629 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,665  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-4] (ExampleService.java:29) 06:05:13,492 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,680  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49871 vcap_request_id:492f000be94b42f574c05292f5f3ecd1 response_time:0.002637081 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,688  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-65] (ExampleService.java:29) 06:05:13,551 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,688  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49871 vcap_request_id:4d0a37e05a0931dc5f6a9ec1e9f1b9b6 response_time:0.002131079 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,689  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-131] (ExampleService.java:29) 06:05:13,557 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,689  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49872 vcap_request_id:6ad43eaa7d7dc588e429a54b90e5521b response_time:0.002546306 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,689  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-230] (ExampleService.java:29) 06:05:13,618 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,689  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-108] (ExampleService.java:29) 06:05:13,623 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,689  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49872 vcap_request_id:f7c4f159364839698868695e6647e6a6 response_time:0.002159798 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,692  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+14:05:24,765  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49873 vcap_request_id:79d4d016561d937ffa7779586bcab098 response_time:0.001676114 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,765  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+14:05:24,831  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49875 vcap_request_id:be688e9d02170b095ec53fe1831dc663 response_time:0.002354263 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,832  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+14:05:24,898  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-179] (ExampleService.java:29) 06:05:13,824 -- 杭州农业生产资料有限公司农膜物资分公司 is visited
+
+14:05:24,899  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+14:05:24,971  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 711,491,951
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,978  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:05:13+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:05:13 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "-" "Apache-HttpClient/4.2.6 (java 1.5)" 10.10.101.181:49877 vcap_request_id:6b449b2febb72ad9f2e9c71f6cff6a96 response_time:0.001581460 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:05:24,978  INFO log.server.handler.EightLengthFieldDecoder:376 - readablebytes======konggechangdu==
+14:05:24,988  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 664,458,069
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,989  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,525,012,613
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,989  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 9,557,095
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,990  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 295,008,662
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,991  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,895,272,296
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,991  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,599,575,229
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,992  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,269,718,232
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,993  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,722,993,999
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,993  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,315,137,858
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,994  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 2,028,645,014
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,994  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 148,654,220
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,995  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 637,690,171
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,995  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,318,506,541
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,996  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 119,049,911
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,996  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 2,086,453,872
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,997  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 828,123,159
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,998  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,385,108,855
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,998  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 266,746,610
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:24,999  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 159,102,317
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,000  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,861,079,931
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,000  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,463,244,780
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,001  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,875,255,513
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,001  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 823,127,323
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,002  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 918,318,918
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,002  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 609,339,149
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,003  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,908,037,520
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,003  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 161,001,835
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,004  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 564,554,140
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,004  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,852,564,166
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,005  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,694,213,110
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,005  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 284,659,275
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,006  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 876,038,678
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,006  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 68,683,892
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,007  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 504,109,139
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,007  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 272,335,164
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,007  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 227,990,681
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,008  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,924,132,886
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,008  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,971,319,213
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,009  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 4,611,094
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,009  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 226,946,555
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,010  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,871,341,786
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,010  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 838,210,841
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,011  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 48,883,609
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,011  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,727,254,114
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,012  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,539,196,691
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,012  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 539,921,443
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,013  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 823,101,723
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,013  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 129,383,967
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,014  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,804,677,423
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,014  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,145,315,755
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,015  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 296,826,248
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,015  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 267,909,156
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,016  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,725,594,325
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,016  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,595,365,505
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,016  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,734,319,442
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,017  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 718,054,737
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,017  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,869,820,356
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,018  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,832,464,293
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,019  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 2,045,587,504
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,019  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,566,503,911
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,020  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,225,266,866
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,020  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 942,206,863
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,021  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,572,669,405
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,021  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 30,342,460
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,022  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 161,539,080
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,022  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,268,066,004
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,023  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 828,291,737
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,023  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 47,762,552
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,024  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 958,106,188
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,024  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,666,019,116
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,025  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,122,861,441
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,025  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 730,978,439
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,026  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 99,652,622
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,026  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,031,966,883
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,026  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 487,087,140
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,027  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 61,376,705
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,027  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 41,265,213
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,028  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,815,217,739
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,028  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 829,571,289
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,029  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 992,428,077
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,029  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 300,123,455
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,029  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 946,149,270
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,030  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 491,927,076
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,030  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,083,996,571
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,031  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 653,085,562
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,031  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 630,751,728
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,032  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 362,065,783
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,032  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 554,359,163
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,033  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 296,174,421
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,033  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 521,673,013
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,033  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 566,938,279
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,034  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 501,122,342
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,034  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 978,830,130
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,035  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 575,714,320
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,035  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 547,924,044
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,036  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,757,111,704
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,036  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 138,791,507
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,037  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 1,812,125,674
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:05:25,037  WARN org.hornetq.core.client:79 - HQ212016: I am closing a core ClientSession you left open. Please make sure you close all ClientSessions explicitly before letting them go out of scope! 2,137,614,532
+java.lang.Exception
+	at org.hornetq.core.client.impl.DelegatingSession.<init>(DelegatingSession.java:91)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createSessionInternal(ClientSessionFactoryImpl.java:912)
+	at org.hornetq.core.client.impl.ClientSessionFactoryImpl.createTransactedSession(ClientSessionFactoryImpl.java:352)
+	at log.process.persist.ClientSessionPool.init(ClientSessionPool.java:46)
+	at log.server.LogNodeServer.main(LogNodeServer.java:45)
+14:16:58,386  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+14:17:09,393  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:16:58+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:16:58 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:e08d82d1b688028cb1e505a7e9d516b6 response_time:0.004671296 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:17:09,393  INFO log.process.persist.ClientSessionPool:63 - 100
+14:17:45,758  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:17:34+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-254] (ExampleService.java:29) 06:17:34,683 -- 泰康人寿保险股份有限公司 is visited
+
+14:17:45,758  INFO log.process.persist.ClientSessionPool:63 - 99
+14:17:45,767  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:17:34+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:17:34 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:ecf340e82bace96e24fa2609161251ca response_time:0.004442066 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:17:45,768  INFO log.process.persist.ClientSessionPool:63 - 98
+14:19:33,969  INFO log.process.persist.ClientSessionPool:50 - Create session pool[100] success
+14:19:41,550  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:19:30+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:19:30 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:840ae89ad954a653e1214c8b0de1a508 response_time:0.003936487 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:19:44,694  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:19:33+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-45] (ExampleService.java:29) 06:19:33,617 -- 泰康人寿保险股份有限公司 is visited
+
+14:19:44,710  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:19:33+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:19:33 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:758affe738803a6cb4329e144af88b58 response_time:0.004019248 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:19:52,148  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:19:41+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:19:41 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:8f85cfbcb6e82e00983ef020ad33dc2f response_time:0.004343155 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
+14:19:52,168  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:19:41+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-147] (ExampleService.java:29) 06:19:41,070 -- 泰康人寿保险股份有限公司 is visited
+
+14:20:23,764  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:20:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [App/0] - -  INFO [http-bio-61079-exec-85] (ExampleService.java:29) 06:20:12,686 -- 泰康人寿保险股份有限公司 is visited
+
+14:20:23,783  INFO log.server.handler.NettyServerHandler:35 - 源：<14>1 2015-04-13T06:20:12+00:00 loggregator 8bb4f321-85d1-449a-8be4-2a7b7ee9a824 [RTR] - - jsdomain3.dawei.li - [13/04/2015:06:20:12 +0000] "POST /v1/company/infor HTTP/1.1" 200 1 "http://jsdomain3.dawei.li/?q=0.25802115187980235" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36" 10.10.101.181:52058 vcap_request_id:33e471beffce0d0675039ddadfbf60c6 response_time:0.004148527 app_id:8bb4f321-85d1-449a-8be4-2a7b7ee9a824
+
