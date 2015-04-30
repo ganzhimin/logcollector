@@ -1,0 +1,8 @@
+12:50:10,011 ERROR com.sshtools.j2ssh.transport.TransportProtocolCommon:? - The Transport Protocol thread failed
+java.io.IOException: The socket is EOF
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readBufferedData(Unknown Source)
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readMessage(Unknown Source)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.processMessages(Unknown Source)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(Unknown Source)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,7 @@
+09:45:30,590 FATAL com.sshtools.j2ssh.transport.Service:? - Service message loop failed!
+java.io.IOException: More data recieved than is allowed by the channel data window [session]
+	at com.sshtools.j2ssh.connection.Channel.processChannelData(Unknown Source)
+	at com.sshtools.j2ssh.connection.ConnectionProtocol.onMsgChannelExtendedData(Unknown Source)
+	at com.sshtools.j2ssh.connection.ConnectionProtocol.onMessageReceived(Unknown Source)
+	at com.sshtools.j2ssh.transport.AsyncService.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)

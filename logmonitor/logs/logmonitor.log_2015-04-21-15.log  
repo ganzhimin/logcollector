@@ -1,0 +1,169 @@
+15:31:47,556  INFO com.zju.logservice.util.RemoteExecutorUtil:21 - ready to get ssh client
+15:31:47,566  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Loading supported cipher algorithms
+15:31:47,577  INFO com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory:? - Loading key exchange methods
+15:31:47,580  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - JAVA version is 1.7.0_67
+15:31:47,581  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/zipfs.jar being added to classpath
+15:31:47,582  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/zipfs.jar to the extension classpath
+15:31:47,582  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunjce_provider.jar being added to classpath
+15:31:47,582  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunjce_provider.jar to the extension classpath
+15:31:47,582  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/dnsns.jar being added to classpath
+15:31:47,582  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/dnsns.jar to the extension classpath
+15:31:47,582  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunpkcs11.jar being added to classpath
+15:31:47,582  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunpkcs11.jar to the extension classpath
+15:31:47,582  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/localedata.jar being added to classpath
+15:31:47,583  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/localedata.jar to the extension classpath
+15:31:47,583  INFO com.sshtools.j2ssh.configuration.ConfigurationLoader:? - Extension /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunec.jar being added to classpath
+15:31:47,583  INFO com.sshtools.j2ssh.util.ExtensionClassLoader:? - Adding /home/laogan/program/jdk1.7.0_67/jre/lib/ext/sunec.jar to the extension classpath
+15:31:47,585  INFO com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory:? - Loading public key algorithms
+15:31:47,589  INFO com.sshtools.j2ssh.transport.compression.SshCompressionFactory:? - Loading compression methods
+15:31:47,590  INFO com.sshtools.j2ssh.transport.hmac.SshHmacFactory:? - Loading message authentication methods
+15:31:47,603  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting transport protocol
+15:31:47,604  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Registering transport protocol messages with inputstream
+15:31:47,715  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Negotiating protocol version
+15:31:47,715  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Protocol negotiation complete
+15:31:47,717  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting key exchange
+15:31:47,718  INFO com.sshtools.j2ssh.transport.kex.DhGroup1Sha1:? - Starting client side key exchange.
+15:31:47,732  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - The host key signature is  valid
+15:31:47,733  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Completing key exchange
+15:31:47,733  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:47,758  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:47,785  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Registering connection protocol messages
+15:31:47,786  INFO com.sshtools.j2ssh.transport.Service:? - ssh-connection has been requested
+15:31:47,786  INFO com.sshtools.j2ssh.transport.Service:? - Starting ssh-connection service thread
+15:31:47,786  INFO com.zju.logservice.util.RemoteExecutorUtil:28 - get ssh client successfully!
+15:31:47,787  INFO com.zju.logservice.util.RemoteExecutorUtil:21 - ready to get ssh client
+15:31:47,788  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting transport protocol
+15:31:47,788  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Registering transport protocol messages with inputstream
+15:31:47,789  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Negotiating protocol version
+15:31:47,793  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Protocol negotiation complete
+15:31:47,795  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting key exchange
+15:31:47,796  INFO com.sshtools.j2ssh.transport.kex.DhGroup1Sha1:? - Starting client side key exchange.
+15:31:47,803  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - The host key signature is  valid
+15:31:47,803  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Completing key exchange
+15:31:47,804  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:47,804  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:48,029  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Registering connection protocol messages
+15:31:48,029  INFO com.sshtools.j2ssh.transport.Service:? - ssh-connection has been requested
+15:31:48,030  INFO com.sshtools.j2ssh.transport.Service:? - Starting ssh-connection service thread
+15:31:48,030  INFO com.zju.logservice.util.RemoteExecutorUtil:28 - get ssh client successfully!
+15:31:48,030  INFO com.zju.logservice.util.RemoteExecutorUtil:21 - ready to get ssh client
+15:31:48,031  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting transport protocol
+15:31:48,031  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Registering transport protocol messages with inputstream
+15:31:48,031  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Negotiating protocol version
+15:31:48,041  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Protocol negotiation complete
+15:31:48,042  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting key exchange
+15:31:48,043  INFO com.sshtools.j2ssh.transport.kex.DhGroup1Sha1:? - Starting client side key exchange.
+15:31:48,056  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - The host key signature is  valid
+15:31:48,056  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Completing key exchange
+15:31:48,057  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:48,058  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:48,084  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Registering connection protocol messages
+15:31:48,085  INFO com.sshtools.j2ssh.transport.Service:? - ssh-connection has been requested
+15:31:48,085  INFO com.sshtools.j2ssh.transport.Service:? - Starting ssh-connection service thread
+15:31:48,086  INFO com.zju.logservice.util.RemoteExecutorUtil:28 - get ssh client successfully!
+15:31:48,087  INFO com.zju.logservice.util.RemoteExecutorUtil:21 - ready to get ssh client
+15:31:48,088  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting transport protocol
+15:31:48,089  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Registering transport protocol messages with inputstream
+15:31:48,090  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Negotiating protocol version
+15:31:48,094  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Protocol negotiation complete
+15:31:48,097  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Starting key exchange
+15:31:48,098  INFO com.sshtools.j2ssh.transport.kex.DhGroup1Sha1:? - Starting client side key exchange.
+15:31:48,119  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - The host key signature is  valid
+15:31:48,120  INFO com.sshtools.j2ssh.transport.TransportProtocolCommon:? - Completing key exchange
+15:31:48,121  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:48,123  INFO com.sshtools.j2ssh.transport.cipher.SshCipherFactory:? - Creating new blowfish-cbc cipher instance
+15:31:48,137  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Registering connection protocol messages
+15:31:48,137  INFO com.sshtools.j2ssh.transport.Service:? - ssh-connection has been requested
+15:31:48,137  INFO com.sshtools.j2ssh.transport.Service:? - Starting ssh-connection service thread
+15:31:48,137  INFO com.zju.logservice.util.RemoteExecutorUtil:28 - get ssh client successfully!
+15:31:49,929  INFO com.zju.logservice.monitor.LogMonitor:312 - monitor begin
+15:31:55,512  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 0 is open [session]
+15:31:55,513  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending shell request for the session channel
+15:31:55,513  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:31:55,515  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:31:55,515  INFO com.zju.logservice.util.RemoteExecutorUtil:44 - check jar [10.10.105.107:~/logservice/logconsumer/logconsumer.jar]
+15:31:55,519  INFO com.zju.logservice.util.RemoteExecutorUtil:68 - create remote jar dir :~/logservice/logconsumer/
+15:31:55,519  INFO com.zju.logservice.util.RemoteExecutorUtil:72 - remove old jar files in: ~/logservice/logconsumer/
+15:31:55,519  INFO com.zju.logservice.util.RemoteExecutorUtil:76 - scp put jar from: /home/laogan/logConsumerJar/logconsumer.jar to ~/logservice/logconsumer/
+15:31:55,521  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Requesting command execution
+15:31:55,521  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Command is scp -t ~/logservice/logconsumer/
+15:31:55,521  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending exec request for the session channel
+15:31:55,521  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:31:55,522  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:31:55,522  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 1 is open [scp]
+15:31:56,282  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 1[scp]
+15:31:56,283  INFO com.zju.logservice.util.RemoteExecutorUtil:85 - create remote patterns dir :~/logservice/cfWeb/
+15:31:56,283  INFO com.zju.logservice.util.RemoteExecutorUtil:90 - scp put patterns from: /home/laogan/cfWeb/patterns/ to ~/logservice/cfWeb/
+15:31:56,283  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Channel Request received: exit-status
+15:31:56,283  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Exit code of 0 received
+15:31:56,283  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Remote computer has closed channel 1[scp]
+15:31:56,283  INFO com.sshtools.j2ssh.connection.Channel:? - Remote side is closing channel
+15:31:56,284  INFO com.sshtools.j2ssh.connection.Channel:? - Finializing channel close
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ChannelOutputStream:? - Closing ChannelOutputStream
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Freeing channel 1 [scp]
+15:31:56,284  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Requesting command execution
+15:31:56,284  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Command is scp -d -t -r ~/logservice/cfWeb/
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending exec request for the session channel
+15:31:56,284  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:31:56,285  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:31:56,285  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 2 is open [scp]
+15:31:56,295  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 2[scp]
+15:31:56,295  INFO com.zju.logservice.util.RemoteExecutorUtil:94 - run cmd:[java -jar ~/logservice/logconsumer/logconsumer.jar 10.10.105.107 5445 1]
+15:31:56,296  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Channel Request received: exit-status
+15:31:56,296  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Exit code of 0 received
+15:31:56,296  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Remote computer has closed channel 2[scp]
+15:31:56,296  INFO com.sshtools.j2ssh.connection.Channel:? - Remote side is closing channel
+15:31:56,296  INFO com.sshtools.j2ssh.connection.Channel:? - Finializing channel close
+15:31:56,296  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:31:56,296  INFO com.sshtools.j2ssh.connection.ChannelOutputStream:? - Closing ChannelOutputStream
+15:31:56,296  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:31:56,296  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Freeing channel 2 [scp]
+15:31:56,489  INFO com.zju.logservice.util.RemoteExecutorUtil:101 - consumer starts successfully!
+15:31:56,490  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 0[session]
+15:32:20,285  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 0 is open [session]
+15:32:20,285  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending shell request for the session channel
+15:32:20,285  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:32:20,287  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:32:20,287  INFO com.zju.logservice.util.RemoteExecutorUtil:44 - check jar [10.10.102.82:~/logservice/logconsumer/logconsumer.jar]
+15:32:20,599  INFO com.zju.logservice.util.RemoteExecutorUtil:68 - create remote jar dir :~/logservice/logconsumer/
+15:32:20,599  INFO com.zju.logservice.util.RemoteExecutorUtil:72 - remove old jar files in: ~/logservice/logconsumer/
+15:32:20,599  INFO com.zju.logservice.util.RemoteExecutorUtil:76 - scp put jar from: /home/laogan/logConsumerJar/logconsumer.jar to ~/logservice/logconsumer/
+15:32:20,600  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Requesting command execution
+15:32:20,600  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Command is scp -t ~/logservice/logconsumer/
+15:32:20,600  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending exec request for the session channel
+15:32:20,601  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:32:20,602  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:32:20,602  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 1 is open [scp]
+15:32:23,481  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 1[scp]
+15:32:23,482  INFO com.zju.logservice.util.RemoteExecutorUtil:85 - create remote patterns dir :~/logservice/cfWeb/
+15:32:23,482  INFO com.zju.logservice.util.RemoteExecutorUtil:90 - scp put patterns from: /home/laogan/cfWeb/patterns/ to ~/logservice/cfWeb/
+15:32:23,482  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Channel Request received: exit-status
+15:32:23,483  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Exit code of 0 received
+15:32:23,483  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Remote computer has closed channel 1[scp]
+15:32:23,483  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Requesting command execution
+15:32:23,483  INFO com.sshtools.j2ssh.connection.Channel:? - Remote side is closing channel
+15:32:23,483  INFO com.sshtools.j2ssh.connection.Channel:? - Finializing channel close
+15:32:23,483  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Command is scp -d -t -r ~/logservice/cfWeb/
+15:32:23,483  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:32:23,483  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Sending exec request for the session channel
+15:32:23,483  INFO com.sshtools.j2ssh.connection.ChannelOutputStream:? - Closing ChannelOutputStream
+15:32:23,484  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Waiting for channel request reply
+15:32:23,484  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:32:23,484  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Freeing channel 1 [scp]
+15:32:23,486  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel request succeeded
+15:32:23,486  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Channel 2 is open [scp]
+15:32:23,519  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 2[scp]
+15:32:23,519  INFO com.zju.logservice.util.RemoteExecutorUtil:94 - run cmd:[java -jar ~/logservice/logconsumer/logconsumer.jar 10.10.105.107 5445 1]
+15:32:23,520  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Channel Request received: exit-status
+15:32:23,520  INFO com.sshtools.j2ssh.session.SessionChannelClient:? - Exit code of 0 received
+15:32:23,520  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Remote computer has closed channel 2[scp]
+15:32:23,520  INFO com.sshtools.j2ssh.connection.Channel:? - Remote side is closing channel
+15:32:23,520  INFO com.sshtools.j2ssh.connection.Channel:? - Finializing channel close
+15:32:23,520  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:32:23,520  INFO com.sshtools.j2ssh.connection.ChannelOutputStream:? - Closing ChannelOutputStream
+15:32:23,521  INFO com.sshtools.j2ssh.connection.ChannelInputStream:? - Closing ChannelInputStream
+15:32:23,521  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Freeing channel 2 [scp]
+15:32:24,152  INFO com.zju.logservice.util.RemoteExecutorUtil:101 - consumer starts successfully!
+15:32:24,152  INFO com.sshtools.j2ssh.connection.ConnectionProtocol:? - Local computer has closed channel 0[session]
